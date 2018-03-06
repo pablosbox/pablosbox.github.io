@@ -1,0 +1,57 @@
+header, .main {
+  background-color: #e49d23;
+  border: 2px solid #201e1e;
+  color: #07160f;
+  text-align: center;
+
+}
+
+header {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.main {
+  margin-top: 10px;
+  padding: 10px 0px 20px 0px;
+}
+
+.main p {
+  text-align: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.main:hover {
+  background-image: url(https://media.giphy.com/media/hZPRkGZn5QBi0/giphy.gif);
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-image: url('Background.jpeg');
+  background-position: bottom;
+  margin: 0px;
+}
+
+a {
+  color: rgb(223, 73, 95);
+}
+
+a:hover {
+  color: rgb(116, 21, 138);
+}
+
+a:link {
+  font-size: 24px;
+}
+
+a:visited {
+  font-size: 2px;
+}
+
+a:active {
+ font-weight: bold;
+ color: red
+}
+.tag1 a {
+  text-decoration: none;
+}
